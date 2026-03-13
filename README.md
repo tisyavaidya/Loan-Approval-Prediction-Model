@@ -1,39 +1,41 @@
-Overview
+# LoanLens – Loan Approval Prediction System
 
-This project builds a Machine Learning model to predict loan approval based on applicant details such as income, credit history, loan amount, and property area.
+## Overview
+LoanLens is a Machine Learning project that predicts whether a loan application will be approved based on applicant financial and demographic details. The model helps simulate how financial institutions assess loan eligibility.
 
-The dataset includes features like gender, marital status, income, loan amount, credit history, and property area.
+## Dataset Features
+The dataset includes applicant attributes such as:
+- Gender
+- Marital Status
+- Applicant Income
+- Loan Amount
+- Credit History
+- Property Area
 
-Features
+## Features
+- Data cleaning and preprocessing
+- Exploratory Data Analysis (EDA)
+- Feature encoding and transformation
+- Multiple machine learning model comparison
+- Model evaluation using classification metrics
 
-Data cleaning and preprocessing
+## Models Used
+- Logistic Regression
+- K-Nearest Neighbors (KNN)
+- Support Vector Machine (SVM)
+- Decision Tree Classifier
+- Ensemble Model
 
-Exploratory Data Analysis (EDA)
+The ensemble model achieved the highest accuracy (~77%) among the tested models.
 
-Multiple ML model comparison
+## Technologies Used
+- Python
+- Pandas
+- Scikit-learn
+- Matplotlib
+- Seaborn
 
-Model evaluation using accuracy and classification metrics
-
-Models Used
-
-Logistic Regression
-
-KNN
-
-SVM
-
-Decision Tree
-
-Ensemble Model
-
-The ensemble model achieved the highest accuracy (~0.77) among the tested models.
-
-Technologies Used
-
-Python
-
-Pandas
-
-Scikit-learn
-
-Matplotlib & Seaborn
+## Applications
+- Loan approval prediction
+- Credit risk analysis
+- Financial decision support systems
